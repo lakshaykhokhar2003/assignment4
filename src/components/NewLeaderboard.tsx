@@ -13,16 +13,16 @@ import {
 } from "@tanstack/react-table";
 import {ChevronDown, IndianRupee, Percent, TrendingUp} from "lucide-react";
 
-import {Button} from "../../../alliaz/src/components/ui/button";
+import {Button} from "@/components/ui/button";
 import {Checkbox} from "./ui/checkbox";
 import {
     DropdownMenu,
     DropdownMenuCheckboxItem,
     DropdownMenuContent,
     DropdownMenuTrigger,
-} from "../../../alliaz/src/components/ui/dropdown-menu";
-import {Input} from "../../../alliaz/src/components/ui/input";
-import {Table, TableBody, TableCell, TableHead, TableHeader, TableRow,} from "../../../alliaz/src/components/ui/table";
+} from "@/components/ui/dropdown-menu";
+import {Input} from "@/components/ui/input";
+import {Table, TableBody, TableCell, TableHead, TableHeader, TableRow,} from "@/components/ui/table";
 import {CaretSortIcon} from "@radix-ui/react-icons";
 
 export type LeaderboardData = {
